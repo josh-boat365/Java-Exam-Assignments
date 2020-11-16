@@ -12,7 +12,7 @@ a. The Sum
 b. The Average
 c. Numbers in the Reverse Order
 
-# SAMPLE OUTPUT
+***SAMPLE OUTPUT***
 Enter the 10 Numbers:
 0
 1
