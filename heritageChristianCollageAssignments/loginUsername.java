@@ -1,5 +1,6 @@
 package heritageChristianCollageAssignments;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class loginUsername {
@@ -30,6 +31,6 @@ public class loginUsername {
         loginUsername userid = new loginUsername();
 
         //display composed userID
-        System.out.println("Generated UserID = "+userid.username());
+        System.out.println("Generated UserID = "+userid.username().toLowerCase(Locale.ROOT));
     }
 }
