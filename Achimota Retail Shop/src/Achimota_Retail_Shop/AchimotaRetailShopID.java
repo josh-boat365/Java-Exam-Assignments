@@ -93,7 +93,7 @@ public class AchimotaRetailShopID {
         double totalDiscount = 0.25 * TotalOrder;
         int totalNumberOfItems = itemDetails.quantity_of_item1 + itemDetails.quantity_of_item2 + itemDetails.quantity_of_item3 + itemDetails.quantity_of_item4 + itemDetails.quantity_of_item5;
         System.out.print("Number of Items: "+ totalNumberOfItems);
-        System.out.println("Total Order: $"+TotalOrder+" Total Discount: $"+totalDiscount);
+        System.out.println("Total Order: $"+String.format("%.2f",TotalOrder)+" Total Discount: $"+String.format("%.2f",totalDiscount));
         System.out.println("===============================================");
         System.out.println("Created By Joshua Nyarko Boateng");
 
