@@ -3,10 +3,13 @@ package Achimota_Retail_Shop;
 import java.util.Scanner;
 
 public class AchimotaRetailShopID {
+
+    //calling instances of created classes
     CustomerID customerDetails = new CustomerID();
     PricesID priceDetails = new PricesID();
     ItemsID itemDetails = new ItemsID();
     DateID dateDetails = new DateID();
+    //names of items or products to be used
     enum ITEMS{
         Mouse,
         Keyboard,
@@ -15,6 +18,8 @@ public class AchimotaRetailShopID {
         Speaker
     }
 
+
+    //method to get input from user
 
     void getDetailsOfCustomer(){
 //        scanner to get details of customer
@@ -67,6 +72,8 @@ public class AchimotaRetailShopID {
 
     }
 
+    //method to display output to user
+
     void createReciept(){
         System.out.println("=/= Achimota Retail Shop =/=");
         System.out.println("==============================================");
@@ -95,8 +102,12 @@ public class AchimotaRetailShopID {
     }
 
     public static void main(String[] args) {
+
+        //constructor for calling an instance of the main class
         AchimotaRetailShopID data = new AchimotaRetailShopID();
+        //calling method to get input from user when program runs
         data.getDetailsOfCustomer();
+        //calling method to display data had from user
         data.createReciept();
 
     }
