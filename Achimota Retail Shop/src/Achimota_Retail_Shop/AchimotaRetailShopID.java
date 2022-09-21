@@ -88,7 +88,7 @@ public class AchimotaRetailShopID {
         System.out.print("Number of Items: "+ totalNumberOfItems);
         System.out.println("Total Order: $"+TotalOrder+" Total Discount: $"+totalDiscount);
         System.out.println("===============================================");
-        System.out.println("Created By Group 11");
+        System.out.println("Created By Joshua Nyarko Boateng");
 
 
 
